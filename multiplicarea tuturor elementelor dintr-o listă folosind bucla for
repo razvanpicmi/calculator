@@ -1,0 +1,12 @@
+# Lista de numere
+lista = [1, 2, 3, 4]
+
+# Inițializăm produsul cu valoarea 1
+produs = 1
+
+# Parcurgem lista folosind o buclă for
+for numar in lista:
+    produs *= numar  # Înmulțim fiecare număr cu valoarea curentă a produsului
+
+# Afișăm rezultatul
+print(f"Produsul numerelor din listă este: {produs}")
